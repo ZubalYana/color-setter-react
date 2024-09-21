@@ -1,4 +1,5 @@
 import React from "react";
+import "./Header.css";
 export default function Header() {
     return (
         <div className="Header">
@@ -7,7 +8,7 @@ export default function Header() {
                 <a href="#"><li>Головна</li></a>
                 <a href="#"><li>Про проект</li></a>
             </ul>
-            <button>Тема</button>
+            <button className="themeChanger">Тема</button>
         </div>
     );
 }
