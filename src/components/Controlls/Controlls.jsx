@@ -6,13 +6,11 @@ export default function Controlls() {
 
   return (
     <div>
-      {colors.map((color) => (
+      {colors.map(color => (
         <button
           key={color}
           style={{ backgroundColor: color }}
-        >
-          {color}
-        </button>
+        />
       ))}
     </div>
   );
